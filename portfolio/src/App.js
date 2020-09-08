@@ -5,6 +5,7 @@ import Home from "./components/Home";
 import Contact from "./components/Contact";
 import Portfolio from "./components/Portfolio";
 import Header from './components/header';
+import Footer from './components/footer';
 import 'bootstrap/dist/css/bootstrap.css';
 
 function App() {
@@ -18,6 +19,7 @@ function App() {
             <Route path='/Contact' component={Contact} />
         </Switch>
       </div>
+      <Footer/>
       </div>
   );
 }
